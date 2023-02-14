@@ -1,0 +1,51 @@
+body{
+    background-image: url('bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+    font-weight: bold;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color:gainsboro;
+}
+
+
+.column {
+  float:left;
+  width: 60%;
+  padding: 5px;
+    
+    padding-left: 295px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#title{
+    font-size: 50px;
+    color: azure;
+    padding-left: 650px;
+}

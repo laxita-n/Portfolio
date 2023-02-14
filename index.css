@@ -1,0 +1,49 @@
+body{
+    background-image: url('bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float: right;
+    font-weight: bold;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+li a:hover{
+    background-color:gainsboro;
+    color: black;
+}
+
+.parent{
+   padding-top: 450px;
+   padding-left: 40px;
+   color: white;
+}
+
+.parent .text1{
+    font-size:35px;
+}
+.parent .text2{
+    font-size:80px;
+}
+.parent .text3{
+    font-size:50px;
+}
